@@ -4,7 +4,8 @@
   "description": "Is it Worf Wednesday?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/raublekick/worf-wednesday/issues"
   },
-  "homepage": "https://github.com/raublekick/worf-wednesday#readme"
+  "homepage": "https://github.com/raublekick/worf-wednesday#readme",
+  "devDependencies": {
+    "contributor": "0.1.25",
+    "prettier": "1.7.4"
+  },
+  "dependencies": {
+    "console.lol": "0.1.2",
+    "dotenv": "4.0.0",
+    "snyk": "1.46.0",
+    "twit": "2.2.9",
+    "unique-random-array": "1.0.0"
+  }
 }
