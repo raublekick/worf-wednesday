@@ -10,11 +10,14 @@ const consoleLol = require('console.lol')
 
 const bot = new Twit(config.twitterKeys)
 
+const post = require('./api/post')
+
 console.rofl('Bot starting...')
 
 // check what day it is and post
-//post()
-//setInterval(post, config.twitterConfig.post)
+console.lol('Checking every ' + config.twitterConfig.post/1000/60 + ' minutes')
+post()
+setInterval(post, config.twitterConfig.post)
 
 // This will allow the bot to run on now.sh
 const server = createServer((req, res) => {
