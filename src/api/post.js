@@ -41,7 +41,7 @@ const post = () => {
 			console.lol('Posting Worf Wednesday')
 
 			var filePath = './img/worfwednesday.gif'
-			tweetNow('HAPPY WORF WEDNESDAY! #WorfWednedsay', filePath)
+			tweetNow('Q\'plah! Happy Worf Wednesday! #WorfWednedsay', filePath)
 		}
 	}
 	else if (day == 5) {
